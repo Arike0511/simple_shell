@@ -155,12 +155,12 @@ int chck_err_cmd(char *dir, data_shell *datash)
 }
 
 /**
- * cmd_execute - executes command lines
+ * cmd_exe - executes command lines
  *
  * @datash: data relevant (args and input)
  * Return: 1 on success.
  */
-int cmd_execute(data_shell *datash)
+int cmd_exe(data_shell *datash)
 {
 	pid_t str_pd;
 	pid_t wpd;

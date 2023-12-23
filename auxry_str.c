@@ -31,7 +31,7 @@ char *_strngcat(char *nw_src, const char *src)
  * Return: the new_src.
  */
 
-char *_strngcpy(char *nw_src, char *src)
+char *_strngcopy(char *nw_src, char *src)
 {
 
 	size_t d;
@@ -52,7 +52,7 @@ char *_strngcpy(char *nw_src, char *src)
  * Return: Always 0.
  */
 
-int _strngcmp(char *string1, char *string2)
+int _strngcompare(char *string1, char *string2)
 {
 	int a;
 

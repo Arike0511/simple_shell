@@ -6,7 +6,7 @@
  * Return: print error message.
  */
 
-char *err_environ(data_shell *datash)
+char *err_env(data_shell *datash)
 {
 	int gtlen;
 	char *prn_err;
@@ -46,7 +46,7 @@ char *err_environ(data_shell *datash)
  * Return: The error string.
  */
 
-char *err_pt_126(data_shell *datash)
+char *error_pt_126(data_shell *datash)
 {
 	int gt_len;
 	char *veron_strng;
@@ -70,5 +70,6 @@ char *err_pt_126(data_shell *datash)
 	_strngcat(prn_err, ": Permission denied\n");
 	_strngcat(prn_err, "\0");
 	free(veron_strng);
+
 	return (prn_err);
 }

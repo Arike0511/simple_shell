@@ -4,7 +4,7 @@
 #define SIZE_IN_TOTAL 1024
 
 /**#define KOT_TOTALSIZE 128*/
-#define TOK_SIZE_IN_TOTAL
+#define TOK_SIZE_IN_TOTAL 128
 
 /**#define KOT_MILED " \t\r\n\a"*/
 #define TOK_MILDE " \t\r\n\a"

@@ -6,7 +6,7 @@
  * Return: The duplicated string
  */
 
-char *_strngdup(const char *str)
+char *_strngduplicate(const char *str)
 {
 	char *nw_mem;
 	size_t len;
@@ -22,11 +22,11 @@ char *_strngdup(const char *str)
 }
 
 /**
- * _strnglen - This program returns the lenght of a string.
+ * _strnglength - This program returns the lenght of a string.
  * @str: Type char pointer.
  * Return: Always 0.
  */
-int _strnglen(const char *str)
+int _strnglength(const char *str)
 {
 	int len;
 
@@ -75,7 +75,7 @@ int cmpre_chars(char strng[], const char *delim)
  * Return: string splited.
  */
 
-char *_strngtok(char strng[], const char *delim)
+char *_strngtoken(char strng[], const char *delim)
 {
 	static char *divide, *str_end;
 	char *str_start;
@@ -88,7 +88,7 @@ char *_strngtok(char strng[], const char *delim)
             return (NULL);
         }
 		divide = strng; /*Stores the first address*/
-		i = _strnglen(strng);
+		i = _strnglength(strng);
 		str_end = &strng[i]; /*Stores the last address*/
 	}
 	str_start = divide;

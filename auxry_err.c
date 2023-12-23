@@ -44,7 +44,7 @@ char *err, char *veron_string)
  * @datash: data relevant (directory)
  * Return: Error message
  */
-char *err_gt_cd(data_shell *datash)
+char *err_get_cdirec(data_shell *datash)
 {
 	int length1, length_ident;
 	char *err, *veron_strng, *err_msg;
@@ -83,7 +83,7 @@ char *err_gt_cd(data_shell *datash)
  * @datash: data relevant (counter, arguments)
  * Return: Error message
  */
-char *err_absent(data_shell *datash)
+char *err_abs(data_shell *datash)
 {
 	int length1;
 	char *error;
@@ -116,7 +116,7 @@ char *err_absent(data_shell *datash)
  *
  * Return: Error message
  */
-char *err_depart_shell(data_shell *datash)
+char *error_dprt_shell(data_shell *datash)
 {
 	int length1;
 	char *error;
